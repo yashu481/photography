@@ -1,0 +1,177 @@
+.login{
+    background-color: #28282b;
+    color: #F8CB0E;
+    border: 0px;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.login:hover{
+    background-color:#F8CB0E;
+    color: #28282b;
+}
+
+#nav-bg{
+    background-color: #28282b;
+}
+
+.logo{
+    width: 50%;
+}
+
+.fullicon{
+    margin-left: 2px;
+    width: 50%;
+    height: 17%;
+    float: left;
+}
+
+.logonm{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logonm:hover{
+    color: #fff;
+    text-decoration: None;
+}
+
+.right{
+    position: fixed;
+    top: 0;
+    align-items: center;
+    margin-left:55%;
+}
+
+.list {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    justify-contnt: center;
+    align-items: center;
+    position: relative;
+}
+
+#tc {
+    margin-right: 7px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color:whitesmoke;
+    cursor: pointer;
+}
+#tc:hover{
+    color: #F8CB0E;
+}
+#tc::after{
+    color: #F8CB0E;
+}
+
+.con1,.con3{
+    width: 35%;
+}
+.con2{
+    width: 20%;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .right{
+        margin-left: 0%;
+    }
+    .list {
+        flex-direction: column;
+        height: auto;
+    }
+    .toggle{
+        margin-right: 30px;
+    }
+    .logon{
+        display: none;
+    }
+
+    .logo1{
+        margin-left: 4px;
+        width: 55%;
+        height: 55%;
+        float: left;
+    }
+    .fullicon{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .right{
+        margin-left: 0%;
+    }
+    .list {
+        flex-direction: column;
+        height: auto;
+        font-size: 20px;
+    }
+    .login{
+        margin-top: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-weight: bold;
+    }
+
+    .logo1{
+        margin-left: 4px;
+        width: 45%;
+        height: 45%;
+        float: left;
+    }
+    .logon{
+        display: none;
+    }
+    .fullicon{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1023px) {
+    .right{
+        margin-left:45%;
+        position:fixed;
+    }
+    .list{
+        position: relative;
+    }
+    .logo1{
+        display: none;
+    }
+    .fullicon{
+        margin-left: 2px;
+        width: 80%;
+        height: 20%;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+    .right{
+        margin-left:45%;
+        position:fixed;
+    }
+    .list{
+        position: relative;
+    }
+    .logo1{
+        display: none;
+    }
+    .fullicon{
+        margin-left: 2px;
+        width: 50%;
+        height: 17%;
+        float: left;
+    }
+}
